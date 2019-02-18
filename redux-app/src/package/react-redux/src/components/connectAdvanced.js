@@ -105,7 +105,7 @@ export default function connectAdvanced(
       wrappedComponentName,
       WrappedComponent
     }
-
+    //通过pure参数选择组件的方式Component或者PureComponent
     const { pure } = connectOptions
 
     let OuterBaseComponent = Component
