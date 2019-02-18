@@ -63,7 +63,6 @@ export function createConnect({
       ...extraOptions
     } = {}
   ) {
-    
     const initMapStateToProps = match(
       mapStateToProps,
       mapStateToPropsFactories,
